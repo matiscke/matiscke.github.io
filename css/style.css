@@ -57,7 +57,7 @@ header, h3, h4, h5, h6{
 }
 
 header .fa, .projects .fa-angle-double-up {
-    color: rgb(170,172,179);
+    color: rgb(215,215,215);
 }
 
 header .fa:hover, .projects .fa-angle-double-up:hover {
