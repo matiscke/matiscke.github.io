@@ -1,4 +1,7 @@
 - Saetze aus PhD-Bewerbung uebernehmen (z.B. Verbindung Reisen - Astronomie)
 - Master Thesis: link auf hot Saturn poster
 
+- switch "Research" and "trajectory in Science" sections
 - add ads symbol with link to ads (with personalized paper list) 
+- add linkedin symbol with link?
+
