@@ -5,3 +5,8 @@
 - add ads symbol with link to ads (with personalized paper list) 
 - add linkedin symbol with link?
 
+
+# update content
+open ftp://schlecker@www2.mpia.de in browser/finder
+git ftp push -u username -p - ftp://host.example.com/public_html
+
