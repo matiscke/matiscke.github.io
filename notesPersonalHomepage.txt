@@ -7,6 +7,10 @@
 
 
 # update content
-open ftp://schlecker@www2.mpia.de in browser/finder
-git ftp push -u username -p - ftp://host.example.com/public_html
-
+- to access files: open ftp://schlecker@www2.mpia.de in browser/finder
+- deploy changes:
+    1. have git-ftp installed and configured:
+        $ git config git-ftp.user username
+        $ git config git-ftp.url ftp.domain.com
+        $ git config git-ftp.password y0ur'p45w0rd
+    2. git ftp push
