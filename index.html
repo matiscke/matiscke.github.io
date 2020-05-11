@@ -386,7 +386,14 @@
             <br>
             <br>
             <small>
-            <p class="text-right">Copyright &copy; 2019 Martin Schlecker</p>
+            <p class="text-right">Copyright &copy;
+<!--               script to insert current year -->
+                <script type="text/javascript">
+                  var today = new Date()
+                  var year = today.getFullYear()
+                  document.write(year)
+                </script>
+                Martin Schlecker</p>
             <p class="text-right">Based on a template by <a href="https://github.com/agrawal-priyank/personal-website-templates">Priyank Agrawal</a>
             </p>
             <p class="text-right">Image credits:  P. Horálek/ESO (La Silla night sky); Waseem Ahmad (code)</p>
