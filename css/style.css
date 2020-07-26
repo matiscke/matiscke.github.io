@@ -372,3 +372,131 @@ hr.small {
     color: #fff;
     background-color: rgba(0,0,0,0.7);
 }
+
+/* Spotlight */
+
+	.spotlight {
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+        padding: 0px 50px;
+	}
+
+		.spotlight .image {
+			-moz-order: 1;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
+			border-radius: 0;
+			width: 40%;
+		}
+
+			.spotlight .image img {
+				border-radius: 0;
+				width: 100%;
+			}
+
+		.spotlight .content {
+			padding: 2em 4em 0.1em 4em ;
+			-moz-order: 2;
+			-webkit-order: 2;
+			-ms-order: 2;
+			order: 2;
+			max-width: 48em;
+			width: 60%;
+		}
+
+		.spotlight:nth-child(2n) {
+			-moz-flex-direction: row-reverse;
+			-webkit-flex-direction: row-reverse;
+			-ms-flex-direction: row-reverse;
+			flex-direction: row-reverse;
+		}
+
+		.spotlight:nth-child(1) {
+			background-color: rgba(0, 0, 0, 0.075);
+		}
+
+		.spotlight:nth-child(2) {
+			background-color: rgba(0, 0, 0, 0.15);
+		}
+
+		.spotlight:nth-child(3) {
+			background-color: rgba(0, 0, 0, 0.225);
+		}
+
+		.spotlight:nth-child(4) {
+			background-color: rgba(0, 0, 0, 0.3);
+		}
+
+		.spotlight:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.375);
+		}
+
+		.spotlight:nth-child(6) {
+			background-color: rgba(0, 0, 0, 0.45);
+		}
+
+		.spotlight:nth-child(7) {
+			background-color: rgba(0, 0, 0, 0.525);
+		}
+
+		.spotlight:nth-child(8) {
+			background-color: rgba(0, 0, 0, 0.6);
+		}
+
+		.spotlight:nth-child(9) {
+			background-color: rgba(0, 0, 0, 0.675);
+		}
+
+		.spotlight:nth-child(10) {
+			background-color: rgba(0, 0, 0, 0.75);
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			.spotlight .image {
+				width: 45%;
+			}
+
+			.spotlight .content {
+				width: 55%;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.spotlight {
+				display: block;
+			}
+
+				.spotlight br {
+					display: none;
+				}
+
+				.spotlight .image {
+					width: 100%;
+				}
+
+				.spotlight .content {
+					padding: 4em 3em 2em 3em ;
+					max-width: none;
+					text-align: center;
+					width: 100%;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.spotlight .content {
+				padding: 3em 2em 1em 2em ;
+			}
+
+		}
