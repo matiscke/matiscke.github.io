@@ -8,7 +8,7 @@
 
 # update content
 - to access files: open ftp://schlecker@www2.mpia.de in browser/finder
-- deploy changes:
+- deploy changes (need to be connected via VPN):
     1. have git-ftp installed and configured:
         $ git config git-ftp.user username
         $ git config git-ftp.url ftp.domain.com
