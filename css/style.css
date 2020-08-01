@@ -388,10 +388,10 @@ hr.small {
 	}
 
 		.spotlight .image {
-			-moz-order: 1;
-			-webkit-order: 1;
-			-ms-order: 1;
-			order: 1;
+			-moz-order: 2;
+			-webkit-order: 2;
+			-ms-order: 2;
+			order: 2;
 			border-radius: 0;
 			width: 40%;
 		}
@@ -403,10 +403,10 @@ hr.small {
 
 		.spotlight .content {
 			padding: 2em 4em 0.1em 4em ;
-			-moz-order: 2;
-			-webkit-order: 2;
-			-ms-order: 2;
-			order: 2;
+			-moz-order: 1;
+			-webkit-order: 1;
+			-ms-order: 1;
+			order: 1;
 			max-width: 48em;
 			width: 60%;
 		}
