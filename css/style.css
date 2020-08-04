@@ -106,7 +106,8 @@ header .fa:hover, .projects .fa-angle-double-up:hover {
 
 .projects {
     background-color: rgb(56,56,56);
-    padding: 50px 0;
+    /*padding: 50px 0;*/
+    padding: 0px 0;
     color: white;
 }
 
@@ -384,7 +385,8 @@ hr.small {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-        padding: 0px 50px;
+        /*padding: 0px 50px;*/
+        padding: 0px 50px 20px 20px;
 	}
 
 		.spotlight .image {
