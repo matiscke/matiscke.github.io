@@ -335,6 +335,7 @@ hr.small {
 
 #projectimage {
     background: #1F1F1F url(../img/code.png) no-repeat center center;
+    /*background: #1F1F1F url(../img/code_chris-ried_unsplash.jpg) no-repeat center center;*/
 }
 
 #workimage, #projectimage {
