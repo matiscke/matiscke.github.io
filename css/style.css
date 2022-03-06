@@ -81,6 +81,11 @@ header .fa:hover, .projects .fa-angle-double-up:hover {
     padding: 50px 0;
 }
 
+.summary_dark{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px 0;
+}
+
 .summary p {
     font-size: 19px;
     font-weight: 300;
