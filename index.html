@@ -151,162 +151,168 @@
     <!-- Projects begins -->
     <section id="projects" class="projects" >
 
-            <section class="spotlight">
+        <section class="spotlight">
+            <div class="content" style="text-align:center">
+                <a target="_blank" href="img/NGMP.jpg"><img class="img-responsive img-thumbnail center-block grow" src="img/NGMP.jpg" width="630" alt=""></a>
+                <h5> Frequency of giant planets around stars of different masses. Unexpected discoveries of giants around very low-mass stars might indicate a break from the commonly assumed linear trend (dark blue line with confidence intervals).
+                    Theoretical models (light blue solid) cannot produce such planets, except when planet migration is suppressed (light blue dashed). Migration traps from substructures in protoplanetary disks may be responsible for such a suppression.
+                </h5>
 
-                <div class="content" style="text-align:center">
-                   <a target="_blank" href="img/atmospherica_01.jpeg"><img class="img-responsive img-thumbnail center-block grow" src="img/atmospherica_01.jpeg" width="890" alt=""></a>
-                </div>
+            </div>
 
-                <div class="content">
-                    <h2 class='text-uppercase'>ATMOSPHERICA: Gigaton-scale Atmospheric CO<sub>2</sub> Removal<br>
+            <div class="content">
+                <h2 class='text-uppercase'>RV-detected planets around M dwarfs: Challenges for core accretion models<br></h2>
+                <small style="color:#337ab7">Schlecker et al. (in press)</small><br>
+                <hr>
+                <p class="text-left lead">
+                    This project puts our planet formation theories to the test.
+                    After adapting our models to low-mass stars in <a target="_blank" href="https://doi.org/10.1051/0004-6361/202140390">Burn, Schlecker et al. 2021</a>, we compare simulated planet populations to radial velocity (RV)-detected planets around M dwarfs.</p>
+                <p class="text-left lead">
+                    A key part of this analysis was accounting for detection biases, which we accomplished by injecting artificial planets in the real measured RV time series and trying to recover them.
+                    We found that while our models agree with the distributions of small, terrestrial planets, there is a striking discrepancy for giant planets: They have been found around the lightest stars in our sample, which our simulations cannot reproduce.
+                    There is also an interesting lack of short-period planets around the more massive host stars, which points to a - currently not well understood - planet migration trap around these stars.</p>
+                <p class="text-left lead">
+                    As it turns out, M dwarfs are not just small Suns.
+                </p>
+            </div>
+        </section>
+
+        <section class="spotlight">
+
+            <div class="content" style="text-align:center">
+               <a target="_blank" href="img/atmospherica_01.jpeg"><img class="img-responsive img-thumbnail center-block grow" src="img/atmospherica_01.jpeg" width="890" alt=""></a>
+            </div>
+
+            <div class="content">
+                <h2 class='text-uppercase'>ATMOSPHERICA: Gigaton-scale Atmospheric CO<sub>2</sub> Removal<br>
+<!--                                      <small>Duration</small><br>-->
+                </h2>
+                    <small>Press release: <a target="_blank" href="https://news.arizona.edu/story/small-mighty-how-uarizona-researchers-are-harnessing-power-algae-capture-carbon">University of Arizona News</a></small>
+                    <br>
+                    <small>TV feature: <a target="_blank" href="https://www.youtube.com/watch?v=XnJSTMP-5cw">Could algae help solve climate change?</a></small>
+                    <hr>
+                <p class="text-left lead">This exciting project is only marginally related to my research focus, but it is close to my heart. Its goal is to develop a highly scalable technological solution for removal and safe sequestration of atmospheric CO<sub>2</sub>.</p>
+                    <p class="text-left lead">Our approach involves a special species of photosynthesizing algae, called Coccolithophores, which we breed in a novel type of bioreactor.
+                    We have patented the use of this bioreactor for removing carbon dioxide, and we now optimize the design to scale up our extraction capacity.
+                    It's exciting to work together with (astro-)biologists, ecologists, and bioengineers in our highly interdisciplinary team!
+                    Learn more about our solution on <a target="_blank" href="http://www.atmospherica.space">Atmospherica's project homepage</a>.
+                </p>
+            </div>
+        </section>
+
+
+
+        <section class="spotlight">
+
+            <div class="content" style="text-align:center">
+               <a target="_blank" href="img/ML_disks_systems.png"><img class="img-responsive img-thumbnail center-block grow" src="img/ML_disks_systems.png" width="730" alt=""></a>
+            </div>
+
+
+            <div class="content">
+                <h2 class='text-uppercase'>Predicting planet types from disk properties in core accretion models<br>
 <!--                                      <small>Duration</small><br>-->
                     </h2>
-                        <small>Press release: <a target="_blank" href="https://news.arizona.edu/story/small-mighty-how-uarizona-researchers-are-harnessing-power-algae-capture-carbon">University of Arizona News</a></small>
-                        <br>
-                        <small>TV feature: <a target="_blank" href="https://www.youtube.com/watch?v=XnJSTMP-5cw">Could algae help solve climate change?</a></small>
-                        <hr>
-                    <p class="text-left lead">This exciting project is only marginally related to my research focus, but it is close to my heart. Its goal is to develop a highly scalable technological solution for removal and safe sequestration of atmospheric CO<sub>2</sub>.</p>
-                        <p class="text-left lead">Our approach involves a special species of photosynthesizing algae, called Coccolithophores, which we breed in a novel type of bioreactor.
-                        We have patented the use of this bioreactor for removing carbon dioxide, and we now optimize the design to scale up our extraction capacity.
-                        It's exciting to work together with (astro-)biologists, ecologists, and bioengineers in our highly interdisciplinary team!
-                        Learn more about our solution on <a target="_blank" href="http://www.atmospherica.space">Atmospherica's project homepage</a>.
-                    </p>
-                </div>
-            </section>
+                    <small><a target="_blank" href="https://doi.org/10.1051/0004-6361/202140551">Schlecker et al. 2021 A&A 656, A73</a></small>
+                    <hr>
+                <p class="text-left lead">State-of-the-art planet formation models are more and more capable of accounting for the full spectrum of known planet types, but this comes at the cost of increasing model complexity.
+                    This calls into question whether established links between the initial conditions of the simulations and the calculated planetary observables are preserved.</p>
+                <p class="text-left lead">In our paper, we take a data-driven approach to investigate such relations in a global model of planet formation and evolution.
+                    First, we used a Gaussian Mixture Model to perform a cluster analysis on typical exoplanet observables such as planet radius, mass, and orbital distance.
+                    Interestingly, the algorithm identified roughly the same planet species as the ones defined by exoplanet observations (without knowing anything about the physical model or planet demographics!).</p>
+                <p class="text-left lead">Then, we trained a Random Forest Classifier to predict which planet type forms, given certain properties of the originating protoplanetary disk.
+                    This way, we could not only find the most predictive features of the disks, but also pinpoint the influence of gravitational interactions in multi-planet systems to specific planet types.
+                </p>
+            </div>
+        </section>
 
 
-            <section class="spotlight">
-
-                <div class="content" style="text-align:center">
-                   <a target="_blank" href="img/ML_disks_systems.png"><img class="img-responsive img-thumbnail center-block grow" src="img/ML_disks_systems.png" width="830" alt=""></a>
-                </div>
-
-
-                <div class="content">
-                    <h2 class='text-uppercase'>Predicting planet types from disk properties in core accretion models<br>
-<!--                                      <small>Duration</small><br>-->
-                        </h2>
-                        <small><a target="_blank" href="https://doi.org/10.1051/0004-6361/202140551">Schlecker et al. 2021 A&A 656, A73</a></small>
-                        <hr>
-                    <p class="text-left lead">State-of-the-art planet formation models are more and more capable of accounting for the full spectrum of known planet types, but this comes at the cost of increasing model complexity.
-                        This calls into question whether established links between the initial conditions of the simulations and the calculated planetary observables are preserved.</p>
-                    <p class="text-left lead">In our paper, we take a data-driven approach to investigate such relations in a global model of planet formation and evolution.
-                        First, we used a Gaussian Mixture Model to perform a cluster analysis on typical exoplanet observables such as planet radius, mass, and orbital distance.
-                        Interestingly, the algorithm identified roughly the same planet species as the ones defined by exoplanet observations (without knowing anything about the physical model or planet demographics!).</p>
-                    <p class="text-left lead">Then, we trained a Random Forest Classifier to predict which planet type forms, given certain properties of the originating protoplanetary disk.
-                        This way, we could not only find the most predictive features of the disks, but also pinpoint the influence of gravitational interactions in multi-planet systems to specific planet types.
-                    </p>
-                </div>
-            </section>
-
-
-            <section class="spotlight">
+        <section class="spotlight">
 <!--                    <div class="image"><img src="img/SECJ_icyRocky_schematics.jpg" alt="" /></div>-->
 <!--                <iframe width="840" height="473" src="https://www.youtube-nocookie.com/embed/FSfBSbWc5xQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
-                <div class="content" style="text-align:center">
-                <iframe width="605" height="340" src="https://www.youtube-nocookie.com/embed/FSfBSbWc5xQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <h5>Our paper explained in a two-minute video and in (semi-)plain language.</h5>
-                </div>
+            <div class="content" style="text-align:center">
+            <iframe width="605" height="340" src="https://www.youtube-nocookie.com/embed/FSfBSbWc5xQ" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h5>Our paper explained in a two-minute video and in (semi-)plain language.</h5>
+            </div>
 
-                <div class="content">
-                <h2 class='text-uppercase'>compositional links between  warm super-Earths  and cold Jupiters<br>
+            <div class="content">
+            <h2 class='text-uppercase'>compositional links between  warm super-Earths  and cold Jupiters<br>
+<!--                                      <small>Duration</small><br>-->
+                </h2>
+                <small><a target="_blank" href="https://doi.org/10.1051/0004-6361/202038554">Schlecker et al. 2021 A&A 656, A71</a>,
+                    also check out the <strong>press release</strong> (available in <a target="_blank" href="https://www.mpg.de/15433934/earth-like-planets-often-come-with-a-bodyguard">English</a> and <a target="_blank" href="https://www.mpg.de/15433717/erdaehnliche-planeten-besitzen-oft-einen-bodyguard">German</a>).
+                </small>
+                <hr>
+
+            <p class="text-left lead">In this paper, we tested what planet formation has to say about a peculiar trend that has been found in exoplanet demographics: around solar-type stars, inner super-Earths and outer giant planets tend to occur together.
+                This challenges some established planet formation theories that predicted an anti-correlation of these planet types.
+                Our synthetic population of 1000 multi-planet systems supports the observed trend, but with important caveats.
+                <br>
+                <br>
+                When we associate our initial conditions with the composition of the resulting planets, we see a quite interesting link:
+                Depending on the initial solid mass, we either get isolated, icy super-Earths or rocky ones that have a cold Jupiter companion.
+                This gives rise to the testable hypothesis that <strong>high-density inner super-Earths are proxies for cold Jupiters in the same system</strong>.
+                A confirmation of this prediction would constrain central open questions in contemporary planet formation theory, ranging from efficiency of pebble accretion to planet migration behavior.</p>
+            </div>
+        </section>
+
+        <section class="spotlight">
+            <div class="content" style="text-align:center">
+                <video height="400" autoplay loop>
+                  <source src="img/orbitVis.mp4" type="video/mp4" >
+                </video>
+                <h5>Simulation of the planet's pseudo-synchronized orbit, photometric light curve, and radial velocity time series.
+                The sizes of the bodies are not to scale but the orbit configuration is as we observe it according to our best-fit orbital elements.
+                Animation created with the aid of the fantastic <a target="_blank" href="https://rodluger.github.io/starry">starry</a> code (<a target="_blank" href="https://ui.adsabs.harvard.edu/link_gateway/2019AJ....157...64L/doi:10.3847/1538-3881/aae8e5">Luger et al., 2019</a>).</h5>
+            </div>
+
+            <div class="content">
+                <h2 class='text-uppercase'>A Highly Eccentric Warm Jupiter orbiting a solar-type star<br>
 <!--                                      <small>Duration</small><br>-->
                     </h2>
-                    <small><a target="_blank" href="https://doi.org/10.1051/0004-6361/202038554">Schlecker et al. 2021 A&A 656, A71</a>,
-                        also check out the <strong>press release</strong> (available in <a target="_blank" href="https://www.mpg.de/15433934/earth-like-planets-often-come-with-a-bodyguard">English</a> and <a target="_blank" href="https://www.mpg.de/15433717/erdaehnliche-planeten-besitzen-oft-einen-bodyguard">German</a>).
-                    </small>
+                    <small><a target="_blank" href="https://iopscience.iop.org/article/10.3847/1538-3881/abbe03">Schlecker et al 2020 AJ 160 275</a></small>
                     <hr>
-
-                <p class="text-left lead">In this paper, we tested what planet formation has to say about a peculiar trend that has been found in exoplanet demographics: around solar-type stars, inner super-Earths and outer giant planets tend to occur together.
-                    This challenges some established planet formation theories that predicted an anti-correlation of these planet types.
-                    Our synthetic population of 1000 multi-planet systems supports the observed trend, but with important caveats.
-                    <br>
-                    <br>
-                    When we associate our initial conditions with the composition of the resulting planets, we see a quite interesting link:
-                    Depending on the initial solid mass, we either get isolated, icy super-Earths or rocky ones that have a cold Jupiter companion.
-                    This gives rise to the testable hypothesis that <strong>high-density inner super-Earths are proxies for cold Jupiters in the same system</strong>.
-                    A confirmation of this prediction would constrain central open questions in contemporary planet formation theory, ranging from efficiency of pebble accretion to planet migration behavior.</p>
-                </div>
-            </section>
-
-            <section class="spotlight">
-                <div class="content" style="text-align:center">
-                    <video height="400" autoplay loop>
-                      <source src="img/orbitVis.mp4" type="video/mp4" >
-                    </video>
-                    <h5>Simulation of the planet's pseudo-synchronized orbit, photometric light curve, and radial velocity time series.
-                    The sizes of the bodies are not to scale but the orbit configuration is as we observe it according to our best-fit orbital elements.
-                    Animation created with the aid of the fantastic <a target="_blank" href="https://rodluger.github.io/starry">starry</a> code (<a target="_blank" href="https://ui.adsabs.harvard.edu/link_gateway/2019AJ....157...64L/doi:10.3847/1538-3881/aae8e5">Luger et al., 2019</a>).</h5>
-                </div>
-
-                <div class="content">
-                    <h2 class='text-uppercase'>A Highly Eccentric Warm Jupiter orbiting a solar-type star<br>
-<!--                                      <small>Duration</small><br>-->
-                        </h2>
-                        <small><a target="_blank" href="https://iopscience.iop.org/article/10.3847/1538-3881/abbe03">Schlecker et al 2020 AJ 160 275</a></small>
-                        <hr>
-                    <p class="text-left lead">The orbital parameters of warm Jupiters serve as a record of their formation history, providing constraints on formation scenarios for giant planets on close and intermediate orbits.
-                        In this study with the WINE (Warm gIaNts with tEss) collaboration, we report the discovery of a new exoplanet that we detected in full frame images of the TESS space telescope and followed up with ground-based photometry (CHAT and LCOGT) and radial velocity measurements (FEROS).
-                        We precisely constrained its mass to Mp= 1.94 +/- 00.1 Mj, and its radius to Rp = 1.24 +/- 0.15 Rj.</p>
-                    <p class="text-left lead">It orbits a G-type star, similar to the Sun (Ms = 1.03 +/- 0.06 Msun, V = 12.1 mag), on one of the most eccentric orbits of all known warm giants.
-                        In fact, with a period of 15.17 d and e ≈ 0.58 its orbital parameters resemble those of the TESS spacecraft itself.
-                        This extreme dynamical state points to a past interaction with an additional, undetected massive companion.
-                        A tidal evolution analysis showed a large tidal dissipation timescale, suggesting that the planet is <i>not</i> a progenitor for a hot Jupiter caught during its high-eccentricity migration.
-                        This planet further represents an attractive opportunity to study the energy deposition and redistribution in the atmosphere of a warm Jupiter with high eccentricity.</p>
-                </div>
-            </section>
+                <p class="text-left lead">The orbital parameters of warm Jupiters serve as a record of their formation history, providing constraints on formation scenarios for giant planets on close and intermediate orbits.
+                    In this study with the WINE (Warm gIaNts with tEss) collaboration, we report the discovery of a new exoplanet that we detected in full frame images of the TESS space telescope and followed up with ground-based photometry (CHAT and LCOGT) and radial velocity measurements (FEROS).
+                    We precisely constrained its mass to Mp= 1.94 +/- 00.1 Mj, and its radius to Rp = 1.24 +/- 0.15 Rj.</p>
+                <p class="text-left lead">It orbits a G-type star, similar to the Sun (Ms = 1.03 +/- 0.06 Msun, V = 12.1 mag), on one of the most eccentric orbits of all known warm giants.
+                    In fact, with a period of 15.17 d and e ≈ 0.58 its orbital parameters resemble those of the TESS spacecraft itself.
+                    This extreme dynamical state points to a past interaction with an additional, undetected massive companion.
+                    A tidal evolution analysis showed a large tidal dissipation timescale, suggesting that the planet is <i>not</i> a progenitor for a hot Jupiter caught during its high-eccentricity migration.
+                    This planet further represents an attractive opportunity to study the energy deposition and redistribution in the atmosphere of a warm Jupiter with high eccentricity.</p>
+            </div>
+        </section>
 
 
-            <section class="spotlight">
-                <div class="content" style="text-align:center">
-                   <a target="_blank" href="img/planetTracks.jpg"><img class="img-responsive img-thumbnail center-block grow" src="img/planetTracks.jpg" width="630" alt=""></a>
-                    <h5>Planet tracks of a simulated multi-planet system resembling TRAPPIST-1. As time evolves from left to right, this busy system undergoes quite a few changes.
-                        When some planets migrate inwards faster than others, they interact gravitationally and some of them merge.
-                        The innermost planets show rapid resonant migration. When the protoplanetary disk disperses at ~7 Gyr, a compact system of six planets remains.
-                        For comparison, we show the seven planets discovered in the TRAPPIST-1 system as dots in the same scale.</h5>
 
-                </div>
 
-                <div class="content">
-                  <h2 class='text-uppercase'>M-dwarf Population Synthesis<br></h2>
-                  <small><a target="_blank" href="https://doi.org/10.1051/0004-6361/202140390">Burn, Schlecker et al. 2021 A&A 656, A72, </a></small><br>
-                  <small style="color:#337ab7">Schlecker et al. (submitted)</small><br>
-                  <hr>
-                    <p class="text-left lead">
-                    Planet Population Synthesis is a holistic approach to study the conditions necessary for planet formation and evolution. It compares the properties of observed exoplanets, e.g. mass and orbital radius, to the ones obtained from planet formation simulations. This technique is particularly promising if one has access to an observational data set with a well-known detection bias that can be taken into account when comparing observations with theory.</p>
-                    <p class="text-left lead">
-                    We have adapted our formation model to low-mass stars in order to compare it to surveys like <a href="https://carmenes.caha.es/">CARMENES</a>, which searches for Earth-mass planets around nearby M-dwarf stars.
-                        Such comparisons will improve our understanding of different planet formation channels around stars of different masses.</p>
-                </div>
-            </section>
+        <section class="spotlight" style="padding-bottom:80px">
+            <div class="content" style="text-align:center">
+               <a target="_blank" href="http://project-eden.space/">
+              <img class="img-responsive img-thumbnail center-block grow" src="img/EDEN_Sites.jpg" height="560" alt=""></a>
+                <h5>EDEN's global network of observatories. Our student group controls the Calar Alto 1.2m telescope.</h5>
 
-            <section class="spotlight" style="padding-bottom:80px">
-                <div class="content" style="text-align:center">
-                   <a target="_blank" href="http://project-eden.space/">
-                  <img class="img-responsive img-thumbnail center-block grow" src="img/EDEN_Sites.jpg" height="560" alt=""></a>
-                    <h5>EDEN's global network of observatories. Our student group controls the Calar Alto 1.2m telescope.</h5>
+            </div>
 
-                </div>
-
-                <div class="content">
-                  <h2 class='text-uppercase'><span>Project EDEN</span><br></h2>
-                  <small><a target="_blank" href="https://iopscience.iop.org/article/10.3847/1538-3881/ab7926">Gibbs, Bixel, Rackham, Apai, Schlecker et al 2020 AJ 159 169</a></small><br>
-                  <hr>
-                    <p class="text-left lead">The ExoEarth Discovery and Exploration Network (<a href="http://project-eden.space/">EDEN</a>) transit survey is a large-scale search for transiting habitable zone Earth-sized planets around nearby stars. In contrast to most ongoing and past surveys, the EDEN team utilizes large research telescopes (0.8 m–2.4 m), which allows for efficient probing of the habitable zones of late M-dwarf stars.</p>
-                  <p class="text-left lead">
+            <div class="content">
+              <h2 class='text-uppercase'><span>Project EDEN</span><br></h2>
+              <small><a target="_blank" href="https://iopscience.iop.org/article/10.3847/1538-3881/ab7926">Gibbs, Bixel, Rackham, Apai, Schlecker et al 2020 AJ 159 169</a></small><br>
+              <hr>
+                <p class="text-left lead">The ExoEarth Discovery and Exploration Network (<a href="http://project-eden.space/">EDEN</a>) transit survey is a large-scale search for transiting habitable zone Earth-sized planets around nearby stars. In contrast to most ongoing and past surveys, the EDEN team utilizes large research telescopes (0.8 m–2.4 m), which allows for efficient probing of the habitable zones of late M-dwarf stars.</p>
+              <p class="text-left lead">
 
 During my time in Heidelberg, I led a team of 14 PhD students and post-docs that observes with one of EDEN's workhorses, the Calar Alto 1.2 m telescope. As of 2021, we contributed more than 200 full nights of observations.  Being interested in planet demographics, I am also involved in <a href="https://iopscience.iop.org/article/10.3847/1538-3881/ab7926">EDEN's target selection and survey statistics</a>.</p>
-                    <br>
-                </div>
+                <br>
+            </div>
 
 
 
-                <div class="row">
+            <div class="row">
 <br>
-                </div>
+            </div>
 
 
-            </section>
+        </section>
 
 
 <!--            </div>-->
