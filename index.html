@@ -35,39 +35,53 @@
 </head>
 
 <body>
-    <!-- Navigation begins -->
-    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="" onclick=$("#menu-close").click();>Martin Schlecker</a>
-            </li>
-            <li>
-                <a href="#home" onclick=$("#menu-close").click();>Home</a>
-            </li>
-            <li>
-                <a href="#summary" onclick=$("#menu-close").click();>Summary</a>
-            </li>
-            <li>
-                <a href="#projects" onclick=$("#menu-close").click();>Projects</a>
-            </li>
-            <li>
-                <!--                <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq_doctype=(doctype_facet_hier%3A%220%2FArticle%22%20OR%20doctype_facet_hier%3A%221%2FNon-Article%2FPhD%20Thesis%22%20OR%20doctype_facet_hier%3A%221%2FNon-Article%2FSoftware%22)&q=author%3A%22Schlecker%2C%20M%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" onclick=$("#menu-close").click();>Publications (ads)</a>-->
-                <a href="#publications" onclick=$("#menu-close").click();>Publications (ads)</a>
-            </li>
-            <li>
-                <a href="#work" onclick=$("#menu-close").click();>Experience</a>
-            </li>
-            <li>
-                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
-            </li>
-            <li>
-                <a href="content/CV_MartinSchlecker.pdf" onclick=$("#menu-close").click();>CV</a>
-            </li>
-        </ul>
-    </nav>
-    <!-- Navigation ends -->
+<!--    &lt;!&ndash; Navigation begins &ndash;&gt;-->
+<!--    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>-->
+<!--    <nav id="sidebar-wrapper">-->
+<!--        <ul class="sidebar-nav">-->
+<!--            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>-->
+<!--            <li class="sidebar-brand">-->
+<!--                <a href="" onclick=$("#menu-close").click();>Martin Schlecker</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#home" onclick=$("#menu-close").click();>Home</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#summary" onclick=$("#menu-close").click();>Summary</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#projects" onclick=$("#menu-close").click();>Projects</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                &lt;!&ndash;                <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq_doctype=(doctype_facet_hier%3A%220%2FArticle%22%20OR%20doctype_facet_hier%3A%221%2FNon-Article%2FPhD%20Thesis%22%20OR%20doctype_facet_hier%3A%221%2FNon-Article%2FSoftware%22)&q=author%3A%22Schlecker%2C%20M%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" onclick=$("#menu-close").click();>Publications (ads)</a>&ndash;&gt;-->
+<!--                <a href="#publications" onclick=$("#menu-close").click();>Publications (ads)</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#work" onclick=$("#menu-close").click();>Experience</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="#contact" onclick=$("#menu-close").click();>Contact</a>-->
+<!--            </li>-->
+<!--            <li>-->
+<!--                <a href="content/CV_MartinSchlecker.pdf" onclick=$("#menu-close").click();>CV</a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </nav>-->
+<!--    &lt;!&ndash; Navigation ends &ndash;&gt;-->
+
+<!--New Top Navigation bar. Based on https://www.w3schools.com/howto/howto_js_topnav.asp-->
+ <div class="topnav">
+     <a class="active" href="#home">Martin Schlecker</a>
+     <a href="#summary">About</a>
+<!--     <a href="#summary_anchor">About</a>-->   <!-- doesn't work -->
+     <a href="#projectimage_anchor">Research</a>
+     <a href="#publications">Publications</a>
+<!--     <a href="#publications_anchor">Publications</a>-->
+     <a href="#workimage_anchor">Experience</a>
+     <a href="#contact">Contact</a>
+     <a href="content/CV_MartinSchlecker.pdf">CV (pdf)</a>
+ </div>
+
 
     <!-- Home begins -->
     <header id="home" class="header" style="padding-top: 50px;margin-top: 0px;">
@@ -87,17 +101,14 @@
             <br>
             <br>
             <!-- <a target="_blank" href="http://example.com/"><span class="fa fa-linkedin-square fa-2x"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-            <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a target="_blank" href="https://github.com/matiscke"><span class="fa fa-github fa-2x" aria-hidden="true"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <a target="_blank" href="mailto:schlecker@arizona.edu"><span class="fa fa-envelope fa-2x" aria-hidden="true"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <!--            <a target="_blank" href="https://twitter.com/MartinSchlecker"><span class="fa fa-twitter fa-2x" aria-hidden="true"></span></a>-->
             <a target="_blank" href="https://www.linkedin.com/in/martinschlecker"><span class="fa fa-linkedin fa-2x" aria-hidden="true"></span></a>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <a target="_blank" href="content/CV_MartinSchlecker.pdf"><span class="fa fa-file-text fa-2x" aria-hidden="true"></span></a>
-&nbsp;&nbsp;
+<!--&nbsp;&nbsp;&nbsp;&nbsp;-->
             <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-            <!-- <a target="_blank" href="http://example.com/"><span class="fa fa-medium fa-2x" aria-hidden="true"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-            <!-- <a target="_blank" href="http://example.com/"><span class="fa fa-quora fa-2x" aria-hidden="true"></span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
             <br>
             <br>
             <br>
@@ -111,9 +122,10 @@
     <!-- Summary begins -->
     <section id="summary" class="summary">
         <div class="container">
+          <span id="summary_anchor" class="anchor"></span>
             <div class="row">
                 <div class="col-lg-2"></div>
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center" style="padding-top:50px;padding-bottom:40px">
                     <!-- <i class="fa fa-coffee fa-3x"></i> -->
                     <h2 class='text-uppercase'>Welcome to my homepage.</h2>
                     <hr>
@@ -130,6 +142,7 @@
                         Previously, I was at the Max Planck Institute for Astronomy and graduated from the University of Heidelberg with a PhD in astronomy. <br />
                     </p>
                     <p class="lead">
+                        <br>
                         For a <i>very</i> high-level overview of my work, here is a word cloud produced from the content of <a target="_blank" href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq_doctype=(doctype_facet_hier%3A%220%2FArticle%22%20OR%20doctype_facet_hier%3A%221%2FNon-Article%2FPhD%20Thesis%22%20OR%20doctype_facet_hier%3A%221%2FNon-Article%2FSoftware%22)&q=author%3A%22Schlecker%2C%20M%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">all my papers</a>:
                     </p>
                     <div class="img-responsive">
@@ -137,6 +150,7 @@
                     </div>
                     <p class="lead"></p>
                     <p class="lead">
+                        <br>
                         Outside the office, I enjoy ultralight hiking, climbing, paragliding, good coffee, and all things outdoors.
                     </p>
 
@@ -151,6 +165,7 @@
 
         <!-- Projects Image begins-->
     <section id="projectimage" class="content-section text-center">
+          <span id="projectimage_anchor" class="anchor"></span>
         <div class="text-container">
             <p><strong>Research Highlights</strong></p>
         </div>
@@ -467,16 +482,12 @@ During my time in Heidelberg, I led a team of 14 PhD students and post-docs that
 
 
 
-
-
-
-
-
     <!-- Projects begins -->
     <section id="publications" class="publications" >
 <!-- insert a line with link to my current publications at ADS-->
+        <span id="publications_anchor" class="anchor"></span>
         <section class="summary_dark">
-            <section class="container text-center" style="padding-top:0px;padding-bottom:50px">
+            <section class="container text-center" style="padding-top:50px;padding-bottom:50px">
                 <div class="content">
                   <h4 class='text-uppercase'><span>All my publications are listed on the <a target="_blank" href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_doctype%7D&fq_doctype=(doctype_facet_hier%3A%220%2FArticle%22%20OR%20doctype_facet_hier%3A%221%2FNon-Article%2FPhD%20Thesis%22%20OR%20doctype_facet_hier%3A%221%2FNon-Article%2FSoftware%22)&q=author%3A%22Schlecker%2C%20M%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">SAO/NASA Astrophysics Data System (ADS)</a></span><br></h4>
 <!--                    <br>-->
@@ -494,6 +505,7 @@ During my time in Heidelberg, I led a team of 14 PhD students and post-docs that
 
     <!-- Work Image begins-->
     <section id="workimage" class="content-section text-center">
+        <span id="workimage_anchor" class="anchor"></span>
         <div class="text-container">
             <p>My trajectory in <strong>science</strong></p>
         </div>
@@ -683,9 +695,7 @@ During my time in Heidelberg, I led a team of 14 PhD students and post-docs that
                   document.write(year)
                 </script>
                 Martin Schlecker</p>
-            <p class="text-right">Based on a template by <a href="https://github.com/agrawal-priyank/personal-website-templates">Priyank Agrawal</a>
-            </p>
-            <p class="text-right">Image credits:  P. Horálek/ESO (La Silla night sky); Waseem Ahmad (code)</p>
+            <p class="text-right">Based on a template by Priyank Agrawal. Image credits:  P. Horálek/ESO (La Silla night sky); Waseem Ahmad (code)</p>
             </small>
         </div>
     </footer>
