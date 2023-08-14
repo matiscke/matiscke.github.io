@@ -311,9 +311,20 @@ hr.small {
   color: white;
 }
 
-/* Main content */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+/*(Invisible) Anchor to navigate to (https://stackoverflow.com/questions/13555709/how-do-i-offset-where-my-fixed-nav-bar-takes-me) */
+.anchor {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -60px;
+    left: 0;
+    visibility: hidden;
 }
 
 
