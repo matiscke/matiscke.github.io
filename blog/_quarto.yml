@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Explore: Data &Cross; Science."
+  navbar:
+#    right:
+    left:
+      - about.qmd
+      - text: Martin's personal website
+        href: ../../index.html
+#      - icon: github
+#        href: https://github.com/
+#      - icon: twitter
+#        href: https://twitter.com
+format:
+  html:
+    theme: superhero
+    css: styles.css
+
+
+
