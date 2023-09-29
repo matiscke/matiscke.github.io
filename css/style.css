@@ -75,6 +75,13 @@ header .fa:hover, .projects .fa-angle-double-up:hover {
     color: rgb(130,130,130);
 }
 
+.paddingBetweenRows td
+{
+    padding:0 15px 0 15px;
+    text-align: left;
+    font-weight: bolder;
+}
+
 /* Summary */
 .summary {
     background-color: white;
