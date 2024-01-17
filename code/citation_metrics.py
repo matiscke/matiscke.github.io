@@ -22,15 +22,19 @@ def plot_papers(ax):
     p = p[p['Year'].between(min_year, max_year)]
 
     cdf = np.cumsum(p.Refereed)
-    ax.plot(p.Year, cdf, ".", color="C7", ms=3)
-    ax.plot(p.Year, cdf, "-", color="C7", lw=3, alpha=0.7)
+    ax.plot(p.Year, cdf, ".", color="C7", ms=4)
+    ax.plot(p.Year, cdf, "-", color="C7", lw=4, alpha=0.7)
     plt.setp(
         ax.get_xticklabels(), rotation=30, fontsize=10, fontproperties=lato, alpha=0.75
     )
     plt.setp(
         ax.get_yticklabels(), rotation=30, fontsize=10, fontproperties=lato, alpha=0.75
     )
-    ax.xaxis.set_major_locator(MaxNLocator(integer=True, nbins=4))
+    ax.xaxis.set_major_locator(MaxNLocator(integer=True))
+    # Customizing tick locations to show odd years
+    odd_years = [year for year in range(min_year, max_year + 1) if year % 2 != 0]
+    ax.set_xticks(odd_years)
+
     for tick in ax.get_xticklabels() + ax.get_yticklabels():
         tick.set_fontsize(10)
     ax.set_ylabel("refereed\npublications", fontsize=15)
@@ -46,15 +50,19 @@ def plot_cites(ax):
     c = c[c['Year'].between(min_year, max_year)]
 
     cdf = np.cumsum(c.Total)
-    ax.plot(c.Year, cdf, ".", color="C4", ms=3)
-    ax.plot(c.Year, cdf, "-", color="C4", lw=3, alpha=0.7)
+    ax.plot(c.Year, cdf, ".", color="C4", ms=4)
+    ax.plot(c.Year, cdf, "-", color="C4", lw=4, alpha=0.7)
     plt.setp(
         ax.get_xticklabels(), rotation=30, fontsize=10, fontproperties=lato, alpha=0.75
     )
     plt.setp(
         ax.get_yticklabels(), rotation=30, fontsize=10, fontproperties=lato, alpha=0.75
     )
-    ax.xaxis.set_major_locator(MaxNLocator(integer=True, nbins=4))
+    ax.xaxis.set_major_locator(MaxNLocator(integer=True))
+    # Customizing tick locations to show odd years
+    odd_years = [year for year in range(min_year, max_year + 1) if year % 2 != 0]
+    ax.set_xticks(odd_years)
+
     for tick in ax.get_xticklabels() + ax.get_yticklabels():
         tick.set_fontsize(10)
     ax.set_ylabel("citations", fontsize=15)
@@ -75,8 +83,8 @@ def plot_metrics(ax):
         xi = np.repeat(m['Year'], fac) + np.tile(np.linspace(0, 1, fac, endpoint=False), len(m['Year']))
         yi = np.interp(xi, m['Year'] + 0.5, m[metric])
 
-        ax.plot(xi, yi, ".", color="C%d" % i, ms=3)
-        ax.plot(xi, yi, "-", color="C%d" % i, lw=3, alpha=0.75, label=metric)
+        ax.plot(xi, yi, ".", color="C%d" % i, ms=4)
+        ax.plot(xi, yi, "-", color="C%d" % i, lw=4, alpha=0.75, label=metric)
 
     plt.setp(
         ax.get_xticklabels(), rotation=30, fontsize=10, fontproperties=lato, alpha=0.7
@@ -84,7 +92,11 @@ def plot_metrics(ax):
     plt.setp(
         ax.get_yticklabels(), rotation=30, fontsize=10, fontproperties=lato, alpha=0.7
     )
-    ax.xaxis.set_major_locator(MaxNLocator(integer=True, nbins=4))
+    ax.xaxis.set_major_locator(MaxNLocator(integer=True))
+    # Customizing tick locations to show odd years
+    odd_years = [year for year in range(min_year, max_year + 1) if year % 2 != 0]
+    ax.set_xticks(odd_years)
+
     for tick in ax.get_xticklabels() + ax.get_yticklabels():
         tick.set_fontsize(10)
     ax.legend(loc="upper left", fontsize=8)
@@ -93,7 +105,6 @@ def plot_metrics(ax):
     # ax.set_xlim(min_year, datetime.now().year + datetime.now().month / 12)
     ax.set_xlim(min_year, max_year + 0.5)
     ax.legend()
-
 
 
 def make_plots():
