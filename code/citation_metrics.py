@@ -97,17 +97,19 @@ def plot_metrics(ax):
 
 
 def make_plots():
+    # plt.style.use('dark_background')
     fig, axs = plt.subplots(1, 3, figsize=(11, 2))
-    fig.subplots_adjust(wspace=0.4)
+    fig.subplots_adjust(wspace=0.8)
     plot_papers(axs[0])
     plot_cites(axs[1])
     plot_metrics(axs[2])
     for axis in axs:
         axis.spines[['right', 'top']].set_visible(False)
-
-    fig.suptitle("Publication metrics", fontsize=16, y=1.1)
+    # fig.suptitle("Metrics", fontsize=16, x=0.1, y=1.1)
+    fig.text(0.5, -0.5, 'h Index: the largest number h such that h publications have at least h citations.', ha='left', fontsize=9, color='gray', fontproperties=lato)
+    fig.text(0.5, -0.6, 'i10 Index: number of publications with at least 10 citations.', ha='left', fontsize=9, color='gray', fontproperties=lato)
     plt.show()
-    fig.savefig("metrics.pdf", bbox_inches="tight")
+    fig.savefig("../img/metrics.svg", bbox_inches="tight")
 
 
 if __name__ == "__main__":
