@@ -1,12 +1,16 @@
 ---
 title: "Welcome To My Blog"
-author: "Tristan O'Malley"
+# author: "Martin Schlecker"
 date: "2023-09-12"
 categories: [news]
 ---
 
-This is the first post in a Quarto blog. Welcome!
-
 ![](thumbnail.jpg)
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+
+So I'm writing a blog!
+
+Why? First and foremost, I believe in the power of knowledge sharing. Like any researcher/data scientist/human, throughout my career I encountered countless fascinating insights, challenges, and methods. Some of them are good to be shared in scientific papers, others in talks or in front of the office coffee machine.
+Here, I'm sharing content that doesn't fit into these categories and that I think may be useful to a broad audience. I hope to contribute to uniting and improving the academic research and data science communities by advocating for reproducibility and open access, and by sharing my passion for unraveling mysteries hidden in data.
+
+Whether you're a seasoned researcher, an early career scientist, or simply curious about our tools and methods, I invite you to join me on this exciting journey!
