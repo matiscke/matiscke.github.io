@@ -37,7 +37,7 @@ jobs:
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          path: blog/
+          path: blog
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
