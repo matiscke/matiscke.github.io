@@ -21,6 +21,13 @@
     "text": "So I’m writing a blog!\nWhy? First and foremost, I believe in the power of knowledge sharing. Like any researcher/data scientist/human, throughout my career I encountered countless fascinating insights, challenges, and methods. Some of them are good to be shared in scientific papers, others in talks or in front of the office coffee machine. Here, I’m sharing content that doesn’t fit into these categories and that I think may be useful to a broad audience. I hope to contribute to uniting and improving the academic research and data science communities by advocating for reproducibility and open access, and by sharing my passion for unraveling mysteries hidden in data.\nWhether you’re a seasoned researcher, an early career scientist, or simply curious about our tools and methods, I invite you to join me on this exciting journey!"
   },
   {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
     "objectID": "posts/enceladus/index.html",
     "href": "posts/enceladus/index.html",
     "title": "Should We Launch a Mission to Enceladus to Search for Life?",
@@ -74,6 +81,6 @@
     "href": "index.html",
     "title": "Explore: Data &Cross; Science.",
     "section": "",
-    "text": "Should We Launch a Mission to Enceladus to Search for Life?\n\n\n\n\n\n\n\nspaceflight\n\n\nastrobiology\n\n\n\n\nLife requires water, energy, and organic molecules. Enceladus, Saturn’s icy moon, shows promise in all these areas. Could a mission to this distant world reveal signs of life?\n\n\n\n\n\n\nJun 4, 2024\n\n\n\n\n\n\n  \n\n\n\n\nMars is calling\n\n\n\n\n\n\n\nspaceflight\n\n\n\n\n\n\n\n\n\n\n\nFeb 15, 2024\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Should We Launch a Mission to Enceladus to Search for Life?\n\n\n\n\n\n\n\nspaceflight\n\n\nastrobiology\n\n\n\n\nLife requires water, energy, and organic molecules. Enceladus, Saturn’s icy moon, shows promise in all these areas. Could a mission to this distant world reveal signs of life?\n\n\n\n\n\n\nJun 4, 2024\n\n\n\n\n\n\n  \n\n\n\n\nMars is calling\n\n\n\n\n\n\n\nspaceflight\n\n\n\n\n\n\n\n\n\n\n\nFeb 15, 2024\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 15, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2023\n\n\n\n\n\n\nNo matching items"
   }
 ]
