@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About this blog",
-    "section": "",
-    "text": "Here, I share thoughts and lessons learned about data science, (exo)planet research, and reproducible science."
-  },
-  {
     "objectID": "writing-papers-in-IDEs.html",
     "href": "writing-papers-in-IDEs.html",
     "title": "Explore: Data &Cross; Science.",
@@ -14,11 +7,11 @@
     "text": "examples where IDE is superior to a text editor for writing papers: - refactoring that checks for dangerous deletions/renames - sophisticated find&replace functions, incl. regex - syntax & error highlighting - integrated git support: - git blame reminds you who, and when wrote/edited a specific line or number - diffs show what changed between versions - easy to switch between different versions of a paper or revert to previous versions"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/amadee20/index.html",
+    "href": "posts/amadee20/index.html",
+    "title": "Mars is calling",
     "section": "",
-    "text": "So I’m writing a blog!\nWhy? First and foremost, I believe in the power of knowledge sharing. Like any researcher/data scientist/human, throughout my career I encountered countless fascinating insights, challenges, and methods. Some of them are good to be shared in scientific papers, others in talks or in front of the office coffee machine. Here, I’m sharing content that doesn’t fit into these categories and that I think may be useful to a broad audience. I hope to contribute to uniting and improving the academic research and data science communities by advocating for reproducibility and open access, and by sharing my passion for unraveling mysteries hidden in data.\nWhether you’re a seasoned researcher, an early career scientist, or simply curious about our tools and methods, I invite you to join me on this exciting journey!"
+    "text": "Today, I’m writing about my experience when I dove into analog missions with the Austrian Space Forum (OeWF) as a volunteer.\n\n\n\nAnalog astronauts during extravehicular activity (EVA) in the Negev Desert, which served as a Mars analog for the AMADEE-20 mission. Source: AMADEE-20/ Florian Voggeneder\n\n\nAs you may know, I usually study worlds that are much further away: Extrasolar planets, i.e., those around stars other than the Sun. This still young field of research has been booming at least since NASA’s Kepler mission showed the enormous variety of planetary systems that distant stars harbour. Recent projections suggest that, on average, every star in the Milky Way is orbited by at least one planet. That would be hundreds of billions of extrasolar worlds in our home galaxy alone! As if that were not motivation enough, we also learn a lot of new things about the formation of our solar system from the more than 5000 exoplanets that have been discovered in the meantime. However, these objects of study have one decisive disadvantage: Due to their enormous distance, we can only dream of studying them in great detail with today’s technology. Only one planetary system has so far been scanned in “high definition” and even visited by probes – our own. This possibility of direct contact, one day even by brave earthlings, is what makes me so enthusiastic about manned space exploration and the Austrian Space Forum. There, the ultimate goal has long been set: manned flight to the red planet.\nBefore the first human footprint will be seen on Mars, it is imperative that the technologies needed to make it happen be tried out in a safe setting. This is where analog missions enter the game. Following the motto “fail fast, fail cheap,” the conditions of a crewed Mars landing are simulated here, from a habitable station with an airlock, to schedules filled with scientific experiments, to the careful selection of analog astronauts. The OeWF staff are undoubtedly the pros in this business. So I didn’t have to think twice about coming to Innsbruck as a visiting scientist to support the AMADEE-20 mission. My place is the Mission Support Center, from where the astronautical activities in the Israeli Negev Desert – which makes an excellent Mars, are coordinated. As the Science Data Officer (SDO), I was responsible for ensuring that the science data gets where it is expected to go. Scientists from 25 countries are eager to get their eyes on the data from their 29 experiments. The SDO’s location is ideal for gaining insight into each of the highly diverse experiments: Independently flying exploration drones, psychological assessments to explore consequences of prolonged isolation, geological sampling during outboard missions, and more.\n\n\n\nMy position as Science Data Officer in the AMADEE-20 control room in Innsbruck. Source: OeWF\n\n\nHowever, I was particularly fascinated by the pitfalls of interplanetary communication. Ever since Einstein formulated his theory of relativity, which has now been tested countless times, we have known: Nothing in the universe moves faster than light. Absolutely nothing, not even radio waves or other conceivable information carriers, can exceed this absolute speed limit. Because of the distance between Mars and Earth of up to 400 million kilometres, this means a significant time delay of typically about 10 minutes per transmission direction. This feature is also simulated realistically in AMADEE-20 and leads to challenges as in a real space mission. This is remedied by strict communication protocols and carefully worded messages – both of which can be practiced nowhere better than in a full-scale Mars simulation with all interlocutors involved. The lessons learned will be valuable for future analog missions, but will also influence the operations of a future real Mars landing. Then an entire species will hold its breath as the “GO for Landing!” is sent into dark space.\nA similar text, written by me in German, appeared on the OeWF’s own blog after the successful conclusion of the AMADEE-20 Mars analog mission."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -26,6 +19,20 @@
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this blog",
+    "section": "",
+    "text": "Here, I share thoughts and lessons learned about data science, (exo)planet research, and reproducible science."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Explore: Data &Cross; Science.",
+    "section": "",
+    "text": "Should We Launch a Mission to Enceladus to Search for Life?\n\n\n\n\n\n\nspaceflight\n\n\nastrobiology\n\n\n\nLife requires water, energy, and organic molecules. Enceladus, Saturn’s icy moon, shows promise in all these areas. Could a mission to this distant world reveal signs of life?\n\n\n\n\n\nJun 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMars is calling\n\n\n\n\n\n\nspaceflight\n\n\n\n\n\n\n\n\n\nFeb 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nSep 15, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nSep 12, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/enceladus/index.html",
@@ -70,17 +77,10 @@
     "text": "A New Frontier in Space Exploration\nA mission to Enceladus may represent a significant leap in our quest to find life beyond Earth. In my view, the time is ripe for such an endeavor, with current technologies ready to meet the challenge. So – ignoring funding limitations/priorities for a minute – should we launch a mission to Enceladus to search for life? The evidence and potential rewards suggest a resounding yes. This mission could not only revolutionize our understanding of Enceladus but also bring us closer to answering the age-old question of whether life exists elsewhere in the universe.\nWhat do you think? Is Enceladus the next frontier in our search for extraterrestrial life? I’m happy to hear your thoughts!"
   },
   {
-    "objectID": "posts/amadee20/index.html",
-    "href": "posts/amadee20/index.html",
-    "title": "Mars is calling",
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
     "section": "",
-    "text": "Today, I’m writing about my experience when I dove into analog missions with the Austrian Space Forum (OeWF) as a volunteer.\n\n\n\nAnalog astronauts during extravehicular activity (EVA) in the Negev Desert, which served as a Mars analog for the AMADEE-20 mission. Source: AMADEE-20/ Florian Voggeneder\n\n\nAs you may know, I usually study worlds that are much further away: Extrasolar planets, i.e., those around stars other than the Sun. This still young field of research has been booming at least since NASA’s Kepler mission showed the enormous variety of planetary systems that distant stars harbour. Recent projections suggest that, on average, every star in the Milky Way is orbited by at least one planet. That would be hundreds of billions of extrasolar worlds in our home galaxy alone! As if that were not motivation enough, we also learn a lot of new things about the formation of our solar system from the more than 5000 exoplanets that have been discovered in the meantime. However, these objects of study have one decisive disadvantage: Due to their enormous distance, we can only dream of studying them in great detail with today’s technology. Only one planetary system has so far been scanned in “high definition” and even visited by probes – our own. This possibility of direct contact, one day even by brave earthlings, is what makes me so enthusiastic about manned space exploration and the Austrian Space Forum. There, the ultimate goal has long been set: manned flight to the red planet.\nBefore the first human footprint will be seen on Mars, it is imperative that the technologies needed to make it happen be tried out in a safe setting. This is where analog missions enter the game. Following the motto “fail fast, fail cheap,” the conditions of a crewed Mars landing are simulated here, from a habitable station with an airlock, to schedules filled with scientific experiments, to the careful selection of analog astronauts. The OeWF staff are undoubtedly the pros in this business. So I didn’t have to think twice about coming to Innsbruck as a visiting scientist to support the AMADEE-20 mission. My place is the Mission Support Center, from where the astronautical activities in the Israeli Negev Desert – which makes an excellent Mars, are coordinated. As the Science Data Officer (SDO), I was responsible for ensuring that the science data gets where it is expected to go. Scientists from 25 countries are eager to get their eyes on the data from their 29 experiments. The SDO’s location is ideal for gaining insight into each of the highly diverse experiments: Independently flying exploration drones, psychological assessments to explore consequences of prolonged isolation, geological sampling during outboard missions, and more.\n\n\n\nMy position as Science Data Officer in the AMADEE-20 control room in Innsbruck. Source: OeWF\n\n\nHowever, I was particularly fascinated by the pitfalls of interplanetary communication. Ever since Einstein formulated his theory of relativity, which has now been tested countless times, we have known: Nothing in the universe moves faster than light. Absolutely nothing, not even radio waves or other conceivable information carriers, can exceed this absolute speed limit. Because of the distance between Mars and Earth of up to 400 million kilometres, this means a significant time delay of typically about 10 minutes per transmission direction. This feature is also simulated realistically in AMADEE-20 and leads to challenges as in a real space mission. This is remedied by strict communication protocols and carefully worded messages – both of which can be practiced nowhere better than in a full-scale Mars simulation with all interlocutors involved. The lessons learned will be valuable for future analog missions, but will also influence the operations of a future real Mars landing. Then an entire species will hold its breath as the “GO for Landing!” is sent into dark space.\nA similar text, written by me in German, appeared on the OeWF’s own blog after the successful conclusion of the AMADEE-20 Mars analog mission."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Explore: Data &Cross; Science.",
-    "section": "",
-    "text": "Should We Launch a Mission to Enceladus to Search for Life?\n\n\n\n\n\n\n\nspaceflight\n\n\nastrobiology\n\n\n\n\nLife requires water, energy, and organic molecules. Enceladus, Saturn’s icy moon, shows promise in all these areas. Could a mission to this distant world reveal signs of life?\n\n\n\n\n\n\nJun 4, 2024\n\n\n\n\n\n\n  \n\n\n\n\nMars is calling\n\n\n\n\n\n\n\nspaceflight\n\n\n\n\n\n\n\n\n\n\n\nFeb 15, 2024\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 15, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "So I’m writing a blog!\nWhy? First and foremost, I believe in the power of knowledge sharing. Like any researcher/data scientist/human, throughout my career I encountered countless fascinating insights, challenges, and methods. Some of them are good to be shared in scientific papers, others in talks or in front of the office coffee machine. Here, I’m sharing content that doesn’t fit into these categories and that I think may be useful to a broad audience. I hope to contribute to uniting and improving the academic research and data science communities by advocating for reproducibility and open access, and by sharing my passion for unraveling mysteries hidden in data.\nWhether you’re a seasoned researcher, an early career scientist, or simply curious about our tools and methods, I invite you to join me on this exciting journey!"
   }
 ]
