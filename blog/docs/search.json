@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this blog",
+    "section": "",
+    "text": "Here, I share thoughts and lessons learned about data science, (exo)planet research, and reproducible science."
+  },
+  {
+    "objectID": "writing-papers-in-IDEs.html",
+    "href": "writing-papers-in-IDEs.html",
+    "title": "Explore: Data &Cross; Science.",
+    "section": "",
+    "text": "examples where IDE is superior to a text editor for writing papers: - refactoring that checks for dangerous deletions/renames - sophisticated find&replace functions, incl. regex - syntax & error highlighting - integrated git support: - git blame reminds you who, and when wrote/edited a specific line or number - diffs show what changed between versions - easy to switch between different versions of a paper or revert to previous versions"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "So I’m writing a blog!\nWhy? First and foremost, I believe in the power of knowledge sharing. Like any researcher/data scientist/human, throughout my career I encountered countless fascinating insights, challenges, and methods. Some of them are good to be shared in scientific papers, others in talks or in front of the office coffee machine. Here, I’m sharing content that doesn’t fit into these categories and that I think may be useful to a broad audience. I hope to contribute to uniting and improving the academic research and data science communities by advocating for reproducibility and open access, and by sharing my passion for unraveling mysteries hidden in data.\nWhether you’re a seasoned researcher, an early career scientist, or simply curious about our tools and methods, I invite you to join me on this exciting journey!"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/enceladus/index.html",
+    "href": "posts/enceladus/index.html",
+    "title": "Should We Launch a Mission to Enceladus to Search for Life?",
+    "section": "",
+    "text": "Life as we know it requires water, energy, and organic molecules. Enceladus, Saturn’s icy moon, shows promise in all these areas. Could a mission to this distant world reveal signs of life? Let’s dive into the possibilities and challenges of such a mission."
+  },
+  {
+    "objectID": "posts/enceladus/index.html#enceladus-a-promising-candidate-for-extraterrestrial-life",
+    "href": "posts/enceladus/index.html#enceladus-a-promising-candidate-for-extraterrestrial-life",
+    "title": "Should We Launch a Mission to Enceladus to Search for Life?",
+    "section": "Enceladus: A Promising Candidate for Extraterrestrial Life?",
+    "text": "Enceladus: A Promising Candidate for Extraterrestrial Life?\nBiology states that life needs three main ingredients: liquid water, energy, and the right conditions for complex organic molecules to form. Surprisingly, Enceladus, one of Saturn’s moons, seems to tick all these boxes. When the Cassini spacecraft flew through plumes of water vapor ejected from Enceladus’ icy surface, it found signs that this distant world might just harbor life. So, the big question is:\nShould we launch a mission to Enceladus to search for life?"
+  },
+  {
+    "objectID": "posts/enceladus/index.html#why-enceladus-and-why-now",
+    "href": "posts/enceladus/index.html#why-enceladus-and-why-now",
+    "title": "Should We Launch a Mission to Enceladus to Search for Life?",
+    "section": "Why Enceladus, and Why Now?",
+    "text": "Why Enceladus, and Why Now?\nCassini’s flybys revealed something extraordinary: high levels of methane in the plumes spewing from Enceladus’ subsurface ocean. Here on Earth, such methane is often produced by microbes. This raises an exciting possibility: Could microbes be living on Enceladus, producing this methane? It’s a tantalizing thought that demands further investigation.\nNASA’s strategic plan identifies the “search for life elsewhere” as a strategic goal, and one stated objective is to “search for life in the Solar System and beyond”. Enceladus stands out as a prime candidate for this endeavor. Given the compelling chance to find habitable conditions on Enceladus, the recent Planetary Science and Astrobiology Decadal Survey strongly recommends a mission to Enceladus, and one that involves multiple flybys to maximize the chances of detecting biosignatures. The compelling evidence from Cassini’s mission, combined with new technologies, makes this the perfect time to follow up with a dedicated mission to Enceladus. Such a mission would not only enhance our understanding of this intriguing moon but could also answer one of humanity’s most profound questions: Are we alone in the Universe?"
+  },
+  {
+    "objectID": "posts/enceladus/index.html#the-science-behind-a-mission",
+    "href": "posts/enceladus/index.html#the-science-behind-a-mission",
+    "title": "Should We Launch a Mission to Enceladus to Search for Life?",
+    "section": "The Science Behind a Mission",
+    "text": "The Science Behind a Mission\nTo explore this possibility, a proposed mission should, in my opinion, focus on detecting cell-like structures and measuring the abundance of organic materials in the plumes. This approach would help determine whether the methane on Enceladus is of biological origin or simply a result of non-living processes. To achieve this, one could aim to collect and analyze samples directly from the plumes of Enceladus’ cryovolcanoes. Probably, several fly-throughs would be required to gather enough data, ensuring that the findings are robust and reliable. This approach avoids the risks associated with landing or drilling, making it a more practical and efficient way to study the moon’s subsurface ocean. The mission’s objectives and instruments would be specifically tailored to detect methanogenic life, if it exists."
+  },
+  {
+    "objectID": "posts/enceladus/index.html#cutting-edge-technology",
+    "href": "posts/enceladus/index.html#cutting-edge-technology",
+    "title": "Should We Launch a Mission to Enceladus to Search for Life?",
+    "section": "Cutting-Edge Technology",
+    "text": "Cutting-Edge Technology\nI believe that recent technological advancements make this mission feasible. One challenge with plume fly-throughs are the extremely high relative velocities – smashing samples into a detector at thousands of kilometers per hour is not only harmful for the hardware but would also destroy any living cells. However, silicate aerogels, an extremely low-density material consisting of &gt;99.9 % air by volume, can decelerate ice grains and droplets without destroying them.\n\n\n\nSilica Aerogel, an extremely light-weight yet solid material that could be used to gently decelerate samples during plume fly-throughs. Image credit: NASA/JPL-Caltech"
+  },
+  {
+    "objectID": "posts/enceladus/index.html#a-new-frontier-in-space-exploration",
+    "href": "posts/enceladus/index.html#a-new-frontier-in-space-exploration",
+    "title": "Should We Launch a Mission to Enceladus to Search for Life?",
+    "section": "A New Frontier in Space Exploration",
+    "text": "A New Frontier in Space Exploration\nA mission to Enceladus may represent a significant leap in our quest to find life beyond Earth. In my view, the time is ripe for such an endeavor, with current technologies ready to meet the challenge. So – ignoring funding limitations/priorities for a minute – should we launch a mission to Enceladus to search for life? The evidence and potential rewards suggest a resounding yes. This mission could not only revolutionize our understanding of Enceladus but also bring us closer to answering the age-old question of whether life exists elsewhere in the universe.\nWhat do you think? Is Enceladus the next frontier in our search for extraterrestrial life? I’m happy to hear your thoughts!"
+  },
+  {
+    "objectID": "posts/amadee20/index.html",
+    "href": "posts/amadee20/index.html",
+    "title": "Mars is calling",
+    "section": "",
+    "text": "Today, I’m writing about my experience when I dove into analog missions with the Austrian Space Forum (OeWF) as a volunteer.\n\n\n\nAnalog astronauts during extravehicular activity (EVA) in the Negev Desert, which served as a Mars analog for the AMADEE-20 mission. Source: AMADEE-20/ Florian Voggeneder\n\n\nAs you may know, I usually study worlds that are much further away: Extrasolar planets, i.e., those around stars other than the Sun. This still young field of research has been booming at least since NASA’s Kepler mission showed the enormous variety of planetary systems that distant stars harbour. Recent projections suggest that, on average, every star in the Milky Way is orbited by at least one planet. That would be hundreds of billions of extrasolar worlds in our home galaxy alone! As if that were not motivation enough, we also learn a lot of new things about the formation of our solar system from the more than 5000 exoplanets that have been discovered in the meantime. However, these objects of study have one decisive disadvantage: Due to their enormous distance, we can only dream of studying them in great detail with today’s technology. Only one planetary system has so far been scanned in “high definition” and even visited by probes – our own. This possibility of direct contact, one day even by brave earthlings, is what makes me so enthusiastic about manned space exploration and the Austrian Space Forum. There, the ultimate goal has long been set: manned flight to the red planet.\nBefore the first human footprint will be seen on Mars, it is imperative that the technologies needed to make it happen be tried out in a safe setting. This is where analog missions enter the game. Following the motto “fail fast, fail cheap,” the conditions of a crewed Mars landing are simulated here, from a habitable station with an airlock, to schedules filled with scientific experiments, to the careful selection of analog astronauts. The OeWF staff are undoubtedly the pros in this business. So I didn’t have to think twice about coming to Innsbruck as a visiting scientist to support the AMADEE-20 mission. My place is the Mission Support Center, from where the astronautical activities in the Israeli Negev Desert – which makes an excellent Mars, are coordinated. As the Science Data Officer (SDO), I was responsible for ensuring that the science data gets where it is expected to go. Scientists from 25 countries are eager to get their eyes on the data from their 29 experiments. The SDO’s location is ideal for gaining insight into each of the highly diverse experiments: Independently flying exploration drones, psychological assessments to explore consequences of prolonged isolation, geological sampling during outboard missions, and more.\n\n\n\nMy position as Science Data Officer in the AMADEE-20 control room in Innsbruck. Source: OeWF\n\n\nHowever, I was particularly fascinated by the pitfalls of interplanetary communication. Ever since Einstein formulated his theory of relativity, which has now been tested countless times, we have known: Nothing in the universe moves faster than light. Absolutely nothing, not even radio waves or other conceivable information carriers, can exceed this absolute speed limit. Because of the distance between Mars and Earth of up to 400 million kilometres, this means a significant time delay of typically about 10 minutes per transmission direction. This feature is also simulated realistically in AMADEE-20 and leads to challenges as in a real space mission. This is remedied by strict communication protocols and carefully worded messages – both of which can be practiced nowhere better than in a full-scale Mars simulation with all interlocutors involved. The lessons learned will be valuable for future analog missions, but will also influence the operations of a future real Mars landing. Then an entire species will hold its breath as the “GO for Landing!” is sent into dark space.\nA similar text, written by me in German, appeared on the OeWF’s own blog after the successful conclusion of the AMADEE-20 Mars analog mission."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Explore: Data &Cross; Science.",
+    "section": "",
+    "text": "Should We Launch a Mission to Enceladus to Search for Life?\n\n\n\n\n\n\n\nspaceflight\n\n\nastrobiology\n\n\n\n\nLife requires water, energy, and organic molecules. Enceladus, Saturn’s icy moon, shows promise in all these areas. Could a mission to this distant world reveal signs of life?\n\n\n\n\n\n\nJun 4, 2024\n\n\n\n\n\n\n  \n\n\n\n\nMars is calling\n\n\n\n\n\n\n\nspaceflight\n\n\n\n\n\n\n\n\n\n\n\nFeb 15, 2024\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nSep 15, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nSep 12, 2023\n\n\n\n\n\n\nNo matching items"
+  }
+]
