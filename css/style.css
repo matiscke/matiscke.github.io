@@ -565,3 +565,8 @@ hr.small {
 			}
 
 		}
+
+.content-after-topnav{
+    margin-top: 63px;
+    padding: 21px 10%;
+}
