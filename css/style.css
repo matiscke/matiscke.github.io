@@ -570,3 +570,22 @@ hr.small {
     margin-top: 63px;
     padding: 21px 10%;
 }
+
+.media-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.media-container img {
+    max-width: 48%;
+}
+
+.video-container {
+    max-width: 48%;
+}
+
+.video-container h8 {
+    text-align: center;
+    color: #333; /* Dark color */
+}
