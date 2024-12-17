@@ -15,9 +15,9 @@ from scipy.interpolate import interp1d
 
 lato = fm.FontProperties()
 
-min_year = 2017
-max_year = 2023
-predict_until = 2025  # Extend predictions until ?
+min_year = 2016
+max_year = 2024
+predict_until = 2026  # Extend predictions until ?
 
 
 def plot_with_gp_predictions(ax, x, y, color, cumulative=True):
@@ -201,6 +201,8 @@ def make_plots():
         ax.spines[['right', 'top']].set_visible(False)
         # ax.set_xlim(min_year, datetime.now().year + datetime.now().month / 12)
 
+        odd_years = [year for year in range(min_year, max_year + 2) if year % 2 != 0]
+        ax.set_xticks(odd_years)
         ax.set_xlim(right=predict_until - 0.6)
         ax.set_ylim(top=0.8 * ax.get_ylim()[1])
 
