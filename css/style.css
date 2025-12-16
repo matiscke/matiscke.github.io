@@ -591,3 +591,8 @@ hr.small {
     text-align: center;
     color: #333; /* Dark color */
 }
+
+.no-frame {
+    background-color: transparent !important;
+    padding: 0 !important;
+}
